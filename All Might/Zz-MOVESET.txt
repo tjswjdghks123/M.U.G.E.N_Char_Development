@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Mini Delaware Smash
+
+S - Power Charge
+
+
+SPECIALS:
+
+D,DF,F,a - Power Rush
+
+D,DB,B,a - Speed Flash
+
+D,DF,F,b - Delaware Smash
+
+D,DB,B,b - Multi Speed Attack
+
+D,DF,F,c - Go Beyond
+
+D,DB,B,c - Detroit Smash
+
+SUPER: 
+
+x - United States Of Smash
+(life <= lifemax/2 and p2life <= lifemax/2)
