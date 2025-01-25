@@ -1,0 +1,30 @@
+; ADD004 BASIC PIEs ReBuilded DEF (2020-04-07)
+;==============================================
+; This file is Made by PIE.
+; there is a backup of this file in the same folder, named "<samename>.a4bk".
+; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
+;==============================================
+
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+[Info]
+name = "All Might"
+displayname = "All Might"
+versiondate = 01/15/2025
+mugenversion = 1.0
+author = "Salah, SUN"
+pal.defaults = 1
+[Files]
+sprite = All Might.sff
+anim = All Might.air
+sound = All Might.snd
+cmd = All Might.cmd
+cns=add004basic.reb1
+st=add004basic.reb1
+stcommon=common1.cns
+pal1 = 1.act
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
