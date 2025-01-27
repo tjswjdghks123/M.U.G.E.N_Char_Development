@@ -1681,7 +1681,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 19
-value = random%3 + 46  ; 46, 47, 48 ì¤‘ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%3 + 46  ; 46, 47, 48 Áß ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -1705,15 +1705,15 @@ type = Explod
 trigger1 = time = 1
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 5 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 5 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 
@@ -1866,24 +1866,24 @@ volume = 50
 [State 0, InitMaxPower]
 type = VarSet
 trigger1 = Power = 3000
-trigger1 = Var(30) = 0  ; ì•„ì§ ì¶œë ¥ë˜ì§€ ì•Šì•˜ì„ ë•Œë§Œ ì‹¤í–‰
+trigger1 = Var(30) = 0  ; ¾ÆÁ÷ Ãâ·ÂµÇÁö ¾Ê¾ÒÀ» ¶§¸¸ ½ÇÇà
 v = 30
-value = 1               ; ì¶œë ¥ ì™„ë£Œ í”Œë˜ê·¸ ì„¤ì •
+value = 1               ; Ãâ·Â ¿Ï·á ÇÃ·¡±× ¼³Á¤
 
 [State 0, Eyes Rayos]
 type = Explod
 trigger1 = time = 1
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 5 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 5 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 [State 0, MaxPowerEffect]
@@ -2186,7 +2186,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 27
-value = random%6 + 91  ; 34ë¶€í„° 40ê¹Œì§€ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%6 + 91  ; 34ºÎÅÍ 40±îÁö ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2800,7 +2800,7 @@ trigger1 = time = -1
 ;//==========================
 ;// add004-sctrls-start
 ;//==========================
-;sys::-2::partners_standby ; ãƒ‘?ãƒˆãƒŠ?å¾…æ©Ÿ
+;sys::-2::partners_standby ; «Ñ?«È«Ê?ÓâÑ¦
 [state 0]
 	type=selfstate
 	value=190190
@@ -2808,28 +2808,28 @@ trigger1 = time = -1
 	;;---
 	triggerall=!ishelper && numpartner && roundstate=2 && alive && sysfvar(0)>0 && playeridexist(floor(sysfvar(0)))
 	triggerall=(stateno!=[190190,190199]) && playerid(floor(sysfvar(0))),var(0)=90900 && playerid(floor(sysfvar(0))),var(22)=4
-	;;---// switch / change ;(äº¤æ›¿)
+	;;---// switch / change ;(Îßôğ)
 	trigger1=sysfvar(4)<1 && ( ctrl || (time<2 && stateno<600) ) && playerid(floor(sysfvar(0))),var(48)=11
 	trigger1=(pos y>=0) && movetype!=h && gethitvar(isbound)=0 && (stateno!=5120) && (stateno!=[5200,5210])
-	;;---// assist ;(å”åŠ›)
+	;;---// assist ;(úğÕô)
 	trigger2=sysfvar(4)=1 && ( ctrl || (stateno-playerid(floor(sysfvar(0))),var(53+id-playerid(floor(sysfvar(0))),sysvar(0))!=[0,999]) )
 	trigger2=(pos y>=0) && movetype!=h && gethitvar(isbound)=0 && (stateno!=5120) && (stateno!=[5200,5210])
-	;;---// switch-canceling ;(å‰²ã‚Š?ã¿äº¤æ›¿)
+	;;---// switch-canceling ;(ùÜªê?ªßÎßôğ)
 	trigger3=sysfvar(4)=2 && ( ctrl || stateno<160 )
 	trigger3=(pos y>=0) && movetype!=h && gethitvar(isbound)=0 && (stateno!=5120) && (stateno!=[5200,5210])
-	;;---// player-priority ;(é †ä½)
+	;;---// player-priority ;(â÷êÈ)
 	trigger4=sysfvar(4)<1 && playerid(floor(sysfvar(0))),var(15)!=id
 	;;---
 	ignorehitpause=1
 
-;sys::-2::partners_change_interrupted ; å‰²ã‚Š?ã¿äº¤æ›¿
+;sys::-2::partners_change_interrupted ; ùÜªê?ªßÎßôğ
 [state 0]
 	type=varset
 	trigger1=!ishelper && numpartner && roundstate=2 && alive && sysfvar(0)>0 && playeridexist(floor(sysfvar(0)))
 	trigger1=playerid(floor(sysfvar(0))),var(0)=90900 && playerid(floor(sysfvar(0))),var(48)=21 && sysfvar(4)<1
 	sysfvar(4)=2 ;; (0:main / 1:assist / 2:switch-canceling)
 
-;sys::-2::helper::bar004 ; ãƒ©ã‚¤ãƒ•ãƒ?
+;sys::-2::helper::bar004 ; «é«¤«Õ«Ğ?
 [state 0]
 	type=helper
 	triggerall=!ishelper && !numhelper(90900)
@@ -2847,7 +2847,7 @@ trigger1 = time = -1
 	pausemovetime=88888
 	pos=0,88888
 
-;sys::-2::get_helper::bar004_id ; IDå–å¾—
+;sys::-2::get_helper::bar004_id ; IDö¢Ôğ
 [state 0]
 	type=varset
 	trigger1=!ishelper && numhelper(90900)
@@ -2860,7 +2860,7 @@ trigger1 = time = -1
 	trigger1=!numhelper(90900) && (partner,numhelper(90900)) && (sysfvar(0)!=(partner,sysfvar(0)))
 	sysfvar(0)=(partner,sysfvar(0))
 
-;sys::-2::bk/jd_system ; ãƒ–ãƒ­ã‚­ãƒ³ã‚°/ã‚¸ãƒ£ã‚¹ãƒˆD
+;sys::-2::bk/jd_system ; «Ö«í«­«ó«°/«¸«ã«¹«ÈD
 [state 0]
 	type=hitoverride
 	trigger1=(numprojid(195502)||numprojid(195503)) && !ishelper && roundstate=2 && alive && (ctrl || stateno=52)
@@ -2871,7 +2871,7 @@ trigger1 = time = -1
 
 ;//==========================
 ;;>>@Config.Face>>
-;sys::-2::face_d ; portrait (é¡”)
+;sys::-2::face_d ; portrait (äÔ)
 [state 0]
 	type=explod
 	trigger1=!ishelper && alive && !numexplod(490600) && selfanimexist(909002)
@@ -2906,7 +2906,7 @@ trigger1 = time = -1
 
 ;//==========================
 ;;>>@Config.Camera>>
-;sys::-2::camera_nc ; ç„¦ç‚¹?æ›´
+;sys::-2::camera_nc ; õ¥ïÃ?ÌÚ
 [state 0]
 	type=screenbound
 	trigger1=!ishelper && sysfvar(0)>id && playeridexist(floor(sysfvar(0)))
@@ -2951,7 +2951,7 @@ trigger1 = time = -1
 
 ;//==========================
 ;// optional settings
-;sys::-2::guard_crush_fx ; ã‚¬?ãƒ‰ã‚¯ãƒ©ãƒƒã‚·ãƒ¥
+;sys::-2::guard_crush_fx ; «¬?«É«¯«é«Ã«·«å
 [state 0]
 	type=palfx
 	trigger1=(stateno=150 || stateno=152) && alive && !ishelper && (gametime%5=0) && sysfvar(0)>id && playeridexist(floor(sysfvar(0)))
@@ -2978,7 +2978,7 @@ trigger1 = time = -1
 	trigger1=(stateno=5030 || stateno=5071) && hitshakeover && alive && !ishelper && life>1 && roundstate=2 && sysfvar(0)>id && playeridexist(floor(sysfvar(0)))
 	trigger1=playerid(floor(sysfvar(0))),var(0)=90900 && playerid(floor(sysfvar(0))),var(50)>=1000
 	value=195050
-;;--- fadeout when KOed ; KOå¾Œæ¶ˆãˆã‚‹
+;;--- fadeout when KOed ; KOı­á¼ª¨ªë
 ;sys::-2::st5150-1
 [state 0]
 	type=varset
@@ -3662,13 +3662,13 @@ ignorehitpause = 1
 
 [State 0, BGPalFX]
 type = BGPalFX
-trigger1 = time = 25 ; ì´ ì¡°ê±´ì€ í•„ìš”ì— ë”°ë¼ ì¡°ì •í•˜ì„¸ìš”.
-time = 50             ; ê²€ì€ í™”ë©´ ì§€ì† ì‹œê°„
-add = 0,0,0           ; ì¶”ê°€ ìƒ‰ìƒ (RGB)
-mul = 0,0,0           ; í™”ë©´ì„ ì™„ì „íˆ ê²€ì€ìƒ‰ìœ¼ë¡œ
-sinadd = 0,0,0,0      ; í™”ë©´ ìƒ‰ìƒ ë³€í™” íš¨ê³¼ ì—†ìŒ
-invertall = 0         ; ìƒ‰ìƒ ë°˜ì „ ì—†ìŒ
-color = 256           ; ì˜í–¥ì„ ë°›ëŠ” ìƒ‰ìƒ ìˆ˜ (256ì´ ì „ì²´)
+trigger1 = time = 25 ; ÀÌ Á¶°ÇÀº ÇÊ¿ä¿¡ µû¶ó Á¶Á¤ÇÏ¼¼¿ä.
+time = 50             ; °ËÀº È­¸é Áö¼Ó ½Ã°£
+add = 0,0,0           ; Ãß°¡ »ö»ó (RGB)
+mul = 0,0,0           ; È­¸éÀ» ¿ÏÀüÈ÷ °ËÀº»öÀ¸·Î
+sinadd = 0,0,0,0      ; È­¸é »ö»ó º¯È­ È¿°ú ¾øÀ½
+invertall = 0         ; »ö»ó ¹İÀü ¾øÀ½
+color = 256           ; ¿µÇâÀ» ¹Ş´Â »ö»ó ¼ö (256ÀÌ ÀüÃ¼)
 
 
 [State 0, groundpower]
@@ -3793,15 +3793,15 @@ type = Explod
 trigger1 = time = 35
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 2 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 2 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 
@@ -4054,7 +4054,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 28
-value = random%5 + 97  ; 43, 44, 45 ì¤‘ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%5 + 97  ; 43, 44, 45 Áß ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -4130,15 +4130,15 @@ type = Explod
 trigger1 = time = 0
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 5 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 5 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 [State 0, Eyes Rayos]
@@ -4146,15 +4146,15 @@ type = Explod
 trigger1 = time = 40
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 2 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 2 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 [State 0, PlaySnd]
@@ -4425,13 +4425,13 @@ trigger1 = time = 30
 value = S40,2
 volume = 50
 
-[State 0, Initialize Timer] ; ì¶”ê°€: íƒ€ì´ë¨¸ ì´ˆê¸°í™”
+[State 0, Initialize Timer] ; Ãß°¡: Å¸ÀÌ¸Ó ÃÊ±âÈ­
 type = VarSet
 trigger1 = Time = 0
-v = 20 ; íƒ€ì´ë¨¸ ë³€ìˆ˜
+v = 20 ; Å¸ÀÌ¸Ó º¯¼ö
 value = 0
 
-[State 0, Increment Timer] ; ì¶”ê°€: íƒ€ì´ë¨¸ ì¦ê°€
+[State 0, Increment Timer] ; Ãß°¡: Å¸ÀÌ¸Ó Áõ°¡
 type = VarAdd
 trigger1 = Time > 0
 v = 20
@@ -4461,10 +4461,10 @@ Fall = 0
 Getpower = 0,0
 Envshake.time = 5
 
-[State 200, End Skill If No Hit] ; ìˆ˜ì •: ì ì¤‘ ì‹¤íŒ¨ ì‹œ ê¸°ìˆ  ì¢…ë£Œ
+[State 200, End Skill If No Hit] ; ¼öÁ¤: ÀûÁß ½ÇÆĞ ½Ã ±â¼ú Á¾·á
 type = ChangeState
-trigger1 = Var(20) >= 60 && !MoveContact ; 1ì´ˆ í›„ì—ë„ ì ì„ ë§íˆì§€ ëª»í•˜ë©´
-value = 0 ; ê¸°ë³¸ ìƒíƒœë¡œ ë³€ê²½
+trigger1 = Var(20) >= 60 && !MoveContact ; 1ÃÊ ÈÄ¿¡µµ ÀûÀ» ¸ÂÈ÷Áö ¸øÇÏ¸é
+value = 0 ; ±âº» »óÅÂ·Î º¯°æ
 ctrl = 1
 
 [State 0, Cortes Lanzador]
@@ -4501,7 +4501,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 28
-value = random%5 + 97  ; 43, 44, 45 ì¤‘ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%5 + 97  ; 43, 44, 45 Áß ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -4665,15 +4665,15 @@ type = Explod
 trigger1 = time = 40
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 2 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 2 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 
@@ -4732,13 +4732,13 @@ trigger1 = time = 30
 value = S40,2
 volume = 50
 
-[State 0, Initialize Timer] ; ì¶”ê°€: íƒ€ì´ë¨¸ ì´ˆê¸°í™”
+[State 0, Initialize Timer] ; Ãß°¡: Å¸ÀÌ¸Ó ÃÊ±âÈ­
 type = VarSet
 trigger1 = Time = 0
-v = 20 ; íƒ€ì´ë¨¸ ë³€ìˆ˜
+v = 20 ; Å¸ÀÌ¸Ó º¯¼ö
 value = 0
 
-[State 0, Increment Timer] ; ì¶”ê°€: íƒ€ì´ë¨¸ ì¦ê°€
+[State 0, Increment Timer] ; Ãß°¡: Å¸ÀÌ¸Ó Áõ°¡
 type = VarAdd
 trigger1 = Time > 0
 v = 20
@@ -4768,10 +4768,10 @@ Fall = 0
 Getpower = 0,0
 Envshake.time = 5
 
-[State 200, End Skill If No Hit] ; ìˆ˜ì •: ì ì¤‘ ì‹¤íŒ¨ ì‹œ ê¸°ìˆ  ì¢…ë£Œ
+[State 200, End Skill If No Hit] ; ¼öÁ¤: ÀûÁß ½ÇÆĞ ½Ã ±â¼ú Á¾·á
 type = ChangeState
-trigger1 = Var(20) >= 60 && !MoveContact ; 1ì´ˆ í›„ì—ë„ ì ì„ ë§íˆì§€ ëª»í•˜ë©´
-value = 0 ; ê¸°ë³¸ ìƒíƒœë¡œ ë³€ê²½
+trigger1 = Var(20) >= 60 && !MoveContact ; 1ÃÊ ÈÄ¿¡µµ ÀûÀ» ¸ÂÈ÷Áö ¸øÇÏ¸é
+value = 0 ; ±âº» »óÅÂ·Î º¯°æ
 ctrl = 1
 
 [State 0, Cortes Lanzador]
@@ -5038,7 +5038,6 @@ type = Destroyself
 trigger1 = AnimTime = 0
 
 
-
 ; Oklahoma SMASH:
 ;---------------------------------------------------------------------------
 
@@ -5075,7 +5074,7 @@ volume = 1000
 
 [State 0, VelSet]
 type = VelSet
-trigger1 = time > 30 && time < 200 ; ìŠ¤í‚¬ ì§„í–‰ ì¤‘ì— ì ì„ í”Œë ˆì´ì–´ ìª½ìœ¼ë¡œ ëŒì–´ì˜¤ê¸°
+trigger1 = time > 30 && time < 200 ; ½ºÅ³ ÁøÇà Áß¿¡ ÀûÀ» ÇÃ·¹ÀÌ¾î ÂÊÀ¸·Î ²ø¾î¿À±â
 x = -0.5
 
 [State 3000, SuperPause]
@@ -5140,13 +5139,13 @@ volume = 50
 type = Velset
 triggerall = time > 35
 trigger1 = command = "holdfwd"
-x = 2.5
+x = 2
 
 [State 0, VelSet]
 type = VelSet
 triggerall = time > 35
 trigger1 = command = "holdback"
-x = -2.5
+x = -2
 
 [State 200, 1]
 type = HitDef
@@ -5173,7 +5172,7 @@ envshake.ampl = -4
 
 [State 200, 2]
 type = HitDef
-trigger1 = time >= 190 ; ìŠ¤í‚¬ ë ë¶€ë¶„ì—ì„œ ë°œìƒ
+trigger1 = time >= 190 ; ½ºÅ³ ³¡ ºÎºĞ¿¡¼­ ¹ß»ı
 attr = S, NA
 animtype = medium
 damage = 10
@@ -5188,8 +5187,8 @@ guardsound = S4,1
 ground.type = High
 ground.slidetime = 12
 ground.hittime = 15
-ground.velocity = -10,0 ; ì ì„ ë©€ë¦¬ ë˜ì§€ê¸° ìœ„í•œ xì¶• ì†ë„
-air.velocity = -10, -10 ; ê³µì¤‘ìœ¼ë¡œ ë˜ì§€ê¸° ìœ„í•œ xì¶•ê³¼ yì¶• ì†ë„
+ground.velocity = -10,0 ; ÀûÀ» ¸Ö¸® ´øÁö±â À§ÇÑ xÃà ¼Óµµ
+air.velocity = -10, -10 ; °øÁßÀ¸·Î ´øÁö±â À§ÇÑ xÃà°ú yÃà ¼Óµµ
 Fall = 1
 envshake.time = 5
 envshake.ampl = -4
@@ -5227,6 +5226,7 @@ type = ChangeState
 trigger1 = time = 200
 value = 1554
 
+;-------------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
 
 ; Oklahoma SMASH -air-  Start
@@ -5262,7 +5262,7 @@ volume = 1000
 
 [State 0, VelSet]
 type = VelSet
-trigger1 = time > 30 && time < 200 ; ìŠ¤í‚¬ ì§„í–‰ ì¤‘ì— ì ì„ í”Œë ˆì´ì–´ ìª½ìœ¼ë¡œ ëŒì–´ì˜¤ê¸°
+trigger1 = time > 30 && time < 200 ; ½ºÅ³ ÁøÇà Áß¿¡ ÀûÀ» ÇÃ·¹ÀÌ¾î ÂÊÀ¸·Î ²ø¾î¿À±â
 x = -0.5
 
 [State 3000, SuperPause]
@@ -5360,7 +5360,7 @@ envshake.ampl = -4
 
 [State 200, 2]
 type = HitDef
-trigger1 = time >= 190 ; ìŠ¤í‚¬ ë ë¶€ë¶„ì—ì„œ ë°œìƒ
+trigger1 = time >= 190 ; ½ºÅ³ ³¡ ºÎºĞ¿¡¼­ ¹ß»ı
 attr = S, NA
 animtype = medium
 damage = 10
@@ -5375,8 +5375,8 @@ guardsound = S4,1
 ground.type = High
 ground.slidetime = 12
 ground.hittime = 15
-ground.velocity = -10,0 ; ì ì„ ë©€ë¦¬ ë˜ì§€ê¸° ìœ„í•œ xì¶• ì†ë„
-air.velocity = -10, -10 ; ê³µì¤‘ìœ¼ë¡œ ë˜ì§€ê¸° ìœ„í•œ xì¶•ê³¼ yì¶• ì†ë„
+ground.velocity = -10,0 ; ÀûÀ» ¸Ö¸® ´øÁö±â À§ÇÑ xÃà ¼Óµµ
+air.velocity = -10, -10 ; °øÁßÀ¸·Î ´øÁö±â À§ÇÑ xÃà°ú yÃà ¼Óµµ
 Fall = 1
 envshake.time = 5
 envshake.ampl = -4
@@ -5403,382 +5403,6 @@ helpertype = normal
 name = "Storm"
 ID = 2999
 stateno = 2999
-pos = 0,0
-postype = p1
-ownpal = 1
-size.xscale = 3.0
-size.yscale = 0.7
-
-[State 200, End]
-type = ChangeState
-trigger1 = time = 200
-value = 1554
-
-;-------------------------------------------------------------------------------
-;---------------------------------------------------------------------------
-
-; Oklahoma SMASH - Start
-[Statedef 1555]
-type    = S
-movetype= A
-physics = S
-juggle  = 2
-velset = 0,0
-ctrl = 0
-anim = 1555
-poweradd = -1000
-sprpriority = 2
-
-[State 0, RandomSnd]
-type = VarSet
-trigger1 = Time = 0
-v = 15
-value = random%4 + 26
-
-[State 0, PlaySnd]
-type = PlaySnd
-trigger1 = Time = 0
-value = S0, Var(15)
-volume = 1000
-
-[State 0, PlaySnd]
-type = PlaySnd
-trigger1 = Time = 0
-value = S0, Var(15)
-volume = 1000
-
-
-[State 0, VelSet]
-type = VelSet
-trigger1 = time > 30 && time < 200 ; ìŠ¤í‚¬ ì§„í–‰ ì¤‘ì— ì ì„ í”Œë ˆì´ì–´ ìª½ìœ¼ë¡œ ëŒì–´ì˜¤ê¸°
-x = 0.5
-y = 0.5
-
-[State 3000, SuperPause]
-type = SuperPause
-trigger1 = time = 0
-time = 30
-movetime = 30
-anim = -1
-sound = -1
-pos = 32,-80
-darken = 0
-unhittable = 1
-
-[State 3000, VarSet]
-type = Varset
-trigger1 = time = 0
-v = 12
-value = -100
-
-[State 3000, VarSet]
-type = Varset
-trigger1 = time = 30
-v = 12
-value = 0
-
-[State 3000, VarAdd]
-type = VarAdd
-trigger1 = time >= 15 && Var(12) < 0
-v = 12
-value = 6
-
-[State 3000, BGColorFX]
-type = BGPalFX
-trigger1 = Time > 0
-time = 1
-add = Var(12),Var(12),Var(12)
-
-[State 3000, Super Charge]
-type = Explod
-trigger1 = Time = 0
-anim = 7400
-ID = 7400
-pos = -3,-25
-sprpriority = 2
-supermove = 1
-removetime = -2
-bindtime = -1
-ownpal = 1
-scale = 0.2, 0.2
-removeongethit = 1
-ontop = 1
-supermovetime 	= 999
-ignorehitpause  = 1
-
-[State 3000, PlaySnd - Super Charge]
-type = PlaySnd
-trigger1 = Time = 0
-value = S950,1
-volume = 50
-
-[State 0, VelSet]
-type = Velset
-triggerall = time > 2
-trigger1 = command = "holdfwd"
-x = 2.5
-
-[State 0, VelSet]
-type = VelSet
-triggerall = time > 2
-trigger1 = command = "holdback"
-x = -2.5
-
-[State 200, 1]
-type = HitDef
-trigger1 = timemod = 5,0
-attr = S, NA
-animtype  = medium
-damage    = 5
-guardflag = MA
-hitflag = MAFDE
-pausetime = 0,2
-sparkno = -1
-guard.sparkno = s7000
-sparkxy = 0,-30
-hitsound   = S1,14
-guardsound = S4,1
-ground.type = High
-ground.slidetime = 12
-ground.hittime  = 15
-ground.velocity = ifelse(time > 190,-6,0),ifelse(time > 190,-3,0)
-air.velocity = ifelse(time > 190,-6,1),ifelse(time > 190,-3,0)
-Fall = ifelse(time > 190,1,0)
-envshake.time = 5
-envshake.ampl = -4
-
-[State 200, 2]
-type = HitDef
-trigger1 = time >= 190 ; ìŠ¤í‚¬ ë ë¶€ë¶„ì—ì„œ ë°œìƒ
-attr = S, NA
-animtype = medium
-damage = 10
-guardflag = MA
-hitflag = MAFDE
-pausetime = 0,2
-sparkno = -1
-guard.sparkno = s7000
-sparkxy = 0,-30
-hitsound = S1,14
-guardsound = S4,1
-ground.type = High
-ground.slidetime = 12
-ground.hittime = 15
-ground.velocity = -10,0 ; ì ì„ ë©€ë¦¬ ë˜ì§€ê¸° ìœ„í•œ xì¶• ì†ë„
-air.velocity = -10, -10 ; ê³µì¤‘ìœ¼ë¡œ ë˜ì§€ê¸° ìœ„í•œ xì¶•ê³¼ yì¶• ì†ë„
-Fall = 1
-envshake.time = 5
-envshake.ampl = -4
-
-[State 0, Hit Spark]
-type = Helper
-trigger1 = movehit = 1
-helpertype = normal
-name = "Hit Spark"
-ID = 980
-stateno = 980
-pos = -5+random%-10,-20-random%20
-postype = p2
-facing = -1
-ownpal = 1
-size.xscale = 0.2
-size.yscale = 0.2
-ignorehitpause = 1
-
-[State 0, Storm]
-type = Helper
-trigger1 = time = 35
-helpertype = normal
-name = "Storm"
-ID = 6046
-stateno = 6046
-pos = 0,0
-postype = p1
-ownpal = 1
-size.xscale = 0.7
-size.yscale = 0.6
-
-[State 200, End]
-type = ChangeState
-trigger1 = time = 200
-value = 1554
-
-;---------------------------------------------------------------------------
-
-; Oklahoma SMASH -air-  Start
-[Statedef 1555]
-type    = A
-movetype= A
-physics = A
-juggle  = 1
-velset = 0,0
-ctrl = 0
-anim = 1555
-poweradd = -1000
-sprpriority = 2
-
-[State 0, RandomSnd]
-type = VarSet
-trigger1 = Time = 0
-v = 15
-value = random%4 + 26
-
-[State 0, PlaySnd]
-type = PlaySnd
-trigger1 = Time = 0
-value = S0, Var(15)
-volume = 1000
-
-[State 0, PlaySnd]
-type = PlaySnd
-trigger1 = Time = 0
-value = S0, Var(15)
-volume = 1000
-
-
-[State 0, VelSet]
-type = VelSet
-trigger1 = time > 30 && time < 200 ; ìŠ¤í‚¬ ì§„í–‰ ì¤‘ì— ì ì„ í”Œë ˆì´ì–´ ìª½ìœ¼ë¡œ ëŒì–´ì˜¤ê¸°
-x = -0.5
-
-[State 3000, SuperPause]
-type = SuperPause
-trigger1 = time = 0
-time = 30
-movetime = 30
-anim = -1
-sound = -1
-pos = 32,-80
-darken = 0
-unhittable = 1
-
-[State 3000, VarSet]
-type = Varset
-trigger1 = time = 0
-v = 12
-value = -100
-
-[State 3000, VarSet]
-type = Varset
-trigger1 = time = 30
-v = 12
-value = 0
-
-[State 3000, VarAdd]
-type = VarAdd
-trigger1 = time >= 15 && Var(12) < 0
-v = 12
-value = 6
-
-[State 3000, BGColorFX]
-type = BGPalFX
-trigger1 = Time > 0
-time = 1
-add = Var(12),Var(12),Var(12)
-
-[State 3000, Super Charge]
-type = Explod
-trigger1 = Time = 0
-anim = 7400
-ID = 7400
-pos = -3,-25
-sprpriority = 2
-supermove = 1
-removetime = -2
-bindtime = -1
-ownpal = 1
-scale = 0.2, 0.2
-removeongethit = 1
-ontop = 1
-supermovetime 	= 999
-ignorehitpause  = 1
-
-[State 3000, PlaySnd - Super Charge]
-type = PlaySnd
-trigger1 = Time = 0
-value = S950,1
-volume = 50
-
-[State 0, VelSet]
-type = Velset
-triggerall = time > 35
-trigger1 = command = "holdfwd"
-x = 2
-
-[State 0, VelSet]
-type = VelSet
-triggerall = time > 35
-trigger1 = command = "holdback"
-x = -2
-
-[State 200, 1]
-type = HitDef
-trigger1 = timemod = 5,0
-attr = S, NA
-animtype  = medium
-damage    = 5
-guardflag = MA
-hitflag = MAFDE
-pausetime = 0,2
-sparkno = -1
-guard.sparkno = s7000
-sparkxy = 0,-30
-hitsound   = S1,14
-guardsound = S4,1
-ground.type = High
-ground.slidetime = 12
-ground.hittime  = 15
-ground.velocity = ifelse(time > 190,-6,0),ifelse(time > 190,-3,0)
-air.velocity = ifelse(time > 190,-6,1),ifelse(time > 190,-3,0)
-Fall = ifelse(time > 190,1,0)
-envshake.time = 5
-envshake.ampl = -4
-
-[State 200, 2]
-type = HitDef
-trigger1 = time >= 190 ; ìŠ¤í‚¬ ë ë¶€ë¶„ì—ì„œ ë°œìƒ
-attr = S, NA
-animtype = medium
-damage = 10
-guardflag = MA
-hitflag = MAFDE
-pausetime = 0,2
-sparkno = -1
-guard.sparkno = s7000
-sparkxy = 0,-30
-hitsound = S1,14
-guardsound = S4,1
-ground.type = High
-ground.slidetime = 12
-ground.hittime = 15
-ground.velocity = -10,0 ; ì ì„ ë©€ë¦¬ ë˜ì§€ê¸° ìœ„í•œ xì¶• ì†ë„
-air.velocity = -10, -10 ; ê³µì¤‘ìœ¼ë¡œ ë˜ì§€ê¸° ìœ„í•œ xì¶•ê³¼ yì¶• ì†ë„
-Fall = 1
-envshake.time = 5
-envshake.ampl = -4
-
-[State 0, Hit Spark]
-type = Helper
-trigger1 = movehit = 1
-helpertype = normal
-name = "Hit Spark"
-ID = 980
-stateno = 980
-pos = -5+random%-10,-20-random%20
-postype = p2
-facing = -1
-ownpal = 1
-size.xscale = 0.2
-size.yscale = 0.2
-ignorehitpause = 1
-
-[State 0, Storm]
-type = Helper
-trigger1 = time = 35
-helpertype = normal
-name = "Storm"
-ID = 6046
-stateno = 6046
 pos = 0,0
 postype = p1
 ownpal = 1
@@ -5850,7 +5474,7 @@ volume = 1
 
 [State 200, End]
 type = DestroySelf
-trigger1 = Time >= 180 ; ì´í™íŠ¸ê°€ 100í‹± í›„ ì‚¬ë¼ì§
+trigger1 = Time >= 180 ; ÀÌÆåÆ®°¡ 100Æ½ ÈÄ »ç¶óÁü
 
 [State 0, Viento]
 type = Explod
@@ -5956,53 +5580,6 @@ flag = Noshadow
 [State 200, End]
 type = DestroySelf
 trigger1 = AnimTime = 0
-
-;===============================================================================
-;-------------------------------------------------------------------------------
-; Oklahoma SMASH - Storm
-[Statedef 6046]
-type    = A
-movetype= A
-physics = N
-juggle  = 1
-velset = 0,0
-ctrl = 0
-anim = 6046
-sprpriority = 3
-
-[State 0, BindToRoot]
-type = BindToRoot
-trigger1 = 1
-pos = 1, -30
-
-[State 0, Trans]
-type = Trans
-trigger1 = 1
-trans = add
-ignorehitpause = 1
-
-[State 0, AssertSpecial]
-type = AssertSpecial
-trigger1 = 1
-flag = Noshadow
-ignorehitpause = 1
-
-
-[State 0, PlaySnd]
-type = PlaySnd
-trigger1 = timemod = 6,0
-value = S5,3
-volume = 1
-
-[State 200, End]
-type = DestroySelf
-trigger1 = Time >= 180 ; ì´í™íŠ¸ê°€ 100í‹± í›„ ì‚¬ë¼ì§
-
-
-[State 200, End]
-type = Changestate
-trigger1 = root,stateno != 1555
-Value = 3002
 
 ;===============================================================================
 
@@ -6270,7 +5847,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 26
-value = random%6 + 34  ; 34ë¶€í„° 40ê¹Œì§€ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%6 + 34  ; 34ºÎÅÍ 40±îÁö ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -6420,7 +5997,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 26
-value = random%6 + 34  ; 34ë¶€í„° 40ê¹Œì§€ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%6 + 34  ; 34ºÎÅÍ 40±îÁö ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -8728,11 +8305,11 @@ removeongethit = 1
 [State 3030, Explod]
 type = Explod
 trigger1 = Time = 0
-anim = 6043 ; ì‹¤í–‰í•  ë‘ ë²ˆì§¸ ì• ë‹ˆë©”ì´ì…˜ ë²ˆí˜¸
-pos = 50, 0   ; ìºë¦­í„°ì˜ ê¸°ì¤€ ì¢Œí‘œë¥¼ ì¤‘ì‹¬ìœ¼ë¡œ ìœ„ì¹˜ ì§€ì •
+anim = 6043 ; ½ÇÇàÇÒ µÎ ¹øÂ° ¾Ö´Ï¸ŞÀÌ¼Ç ¹øÈ£
+pos = 50, 0   ; Ä³¸¯ÅÍÀÇ ±âÁØ ÁÂÇ¥¸¦ Áß½ÉÀ¸·Î À§Ä¡ ÁöÁ¤
 facing = -1
-postype = p1 ; ê¸°ì¤€ ì¢Œí‘œ(p1: ë³¸ì¸, p2: ìƒëŒ€, front/back: í™”ë©´ ê¸°ì¤€)
-sprpriority = 4 ; ìŠ¤í”„ë¼ì´íŠ¸ ìš°ì„ ìˆœìœ„
+postype = p1 ; ±âÁØ ÁÂÇ¥(p1: º»ÀÎ, p2: »ó´ë, front/back: È­¸é ±âÁØ)
+sprpriority = 4 ; ½ºÇÁ¶óÀÌÆ® ¿ì¼±¼øÀ§
 
 
 [State 0, RemoveExplod]
@@ -8862,7 +8439,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 17
-value = random%30 + 61  ; 34ë¶€í„° 40ê¹Œì§€ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%30 + 61  ; 34ºÎÅÍ 40±îÁö ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -8900,8 +8477,8 @@ trigger1 = time = 13
 anim = 1410
 ID = 1410
 postype = p1
-pos = 2, -53  ; x, y ì¢Œí‘œë¥¼ ê³ ì •ëœ ê°’ìœ¼ë¡œ ì„¤ì •
-scale = .6,.6  ; í¬ê¸° ì„¤ì •
+pos = 2, -53  ; x, y ÁÂÇ¥¸¦ °íÁ¤µÈ °ªÀ¸·Î ¼³Á¤
+scale = .6,.6  ; Å©±â ¼³Á¤
 removetime = -2
 sprpriority = 3
 ontop = 1
@@ -9000,19 +8577,19 @@ vel = -2,0
 
 [State 0, Soru]
 type = Explod
-trigger1 = time = 30  ; 30ë²ˆì§¸ í”„ë ˆì„ì—ë§Œ ì‹¤í–‰
-anim = 580            ; ì‚¬ìš©í•  ì• ë‹ˆë©”ì´ì…˜
-ID = 1051             ; ì´í™íŠ¸ ID
-pos = -27, -30        ; í”Œë ˆì´ì–´ ë’¤ìª½ì˜ ìœ„ì¹˜ (X: ì™¼ìª½, Y: ìœ„ìª½)
-postype = p1          ; í”Œë ˆì´ì–´ ê¸°ì¤€ ìœ„ì¹˜
-bindtime = -1         ; í”Œë ˆì´ì–´ì— ì˜êµ¬ì ìœ¼ë¡œ ê³ ì •
-removetime = 61       ; 6í”„ë ˆì„ í›„ ì œê±°
-scale =  .2, .5        ; í¬ê¸° ì„¤ì •
-sprpriority = 0      ; í”Œë ˆì´ì–´ ë’¤ìª½ì— ìœ„ì¹˜
-ontop = 0             ; ë‹¤ë¥¸ ìŠ¤í”„ë¼ì´íŠ¸ ìœ„ì— í‘œì‹œí•˜ì§€ ì•ŠìŒ
-ownpal = 1            ; íŒ”ë ˆíŠ¸ ê³µìœ  ì—¬ë¶€
-removeongethit = 1    ; í”¼ê²© ì‹œ ì œê±°
-trans = SUB           ; ë°˜íˆ¬ëª… íš¨ê³¼ ì ìš©
+trigger1 = time = 30  ; 30¹øÂ° ÇÁ·¹ÀÓ¿¡¸¸ ½ÇÇà
+anim = 580            ; »ç¿ëÇÒ ¾Ö´Ï¸ŞÀÌ¼Ç
+ID = 1051             ; ÀÌÆåÆ® ID
+pos = -27, -30        ; ÇÃ·¹ÀÌ¾î µÚÂÊÀÇ À§Ä¡ (X: ¿ŞÂÊ, Y: À§ÂÊ)
+postype = p1          ; ÇÃ·¹ÀÌ¾î ±âÁØ À§Ä¡
+bindtime = -1         ; ÇÃ·¹ÀÌ¾î¿¡ ¿µ±¸ÀûÀ¸·Î °íÁ¤
+removetime = 61       ; 6ÇÁ·¹ÀÓ ÈÄ Á¦°Å
+scale =  .2, .5        ; Å©±â ¼³Á¤
+sprpriority = 0      ; ÇÃ·¹ÀÌ¾î µÚÂÊ¿¡ À§Ä¡
+ontop = 0             ; ´Ù¸¥ ½ºÇÁ¶óÀÌÆ® À§¿¡ Ç¥½ÃÇÏÁö ¾ÊÀ½
+ownpal = 1            ; ÆÈ·¹Æ® °øÀ¯ ¿©ºÎ
+removeongethit = 1    ; ÇÇ°İ ½Ã Á¦°Å
+trans = SUB           ; ¹İÅõ¸í È¿°ú Àû¿ë
 
 [State 200, 1]
 type = HitDef
@@ -9057,15 +8634,15 @@ type = Explod
 trigger1 = movehit=1
 anim = 6010
 ID = 6010
-pos = 140, -110 + random%21 - 80   ; Y ì¢Œí‘œì— -10 ~ +10ì˜ ë¬´ì‘ìœ„ ë³€ë™ ì¶”ê°€
+pos = 140, -110 + random%21 - 80   ; Y ÁÂÇ¥¿¡ -10 ~ +10ÀÇ ¹«ÀÛÀ§ º¯µ¿ Ãß°¡
 postype = p1
-facing = -1                         ; í•­ìƒ ì˜¤ë¥¸ìª½ ë°©í–¥ìœ¼ë¡œ ê³ ì •
-vfacing = 1                        ; í•­ìƒ ìœ„ìª½ ë°©í–¥ìœ¼ë¡œ ê³ ì •
+facing = -1                         ; Ç×»ó ¿À¸¥ÂÊ ¹æÇâÀ¸·Î °íÁ¤
+vfacing = 1                        ; Ç×»ó À§ÂÊ ¹æÇâÀ¸·Î °íÁ¤
 bindtime = 1
 vel = 0, 0
 accel = 0, 0
-random = 0, 0                       ; ì¢Œí‘œ ë¬´ì‘ìœ„ ì œê±°
-removetime = -100                   ; ì´í™íŠ¸ ì§€ì† ì‹œê°„
+random = 0, 0                       ; ÁÂÇ¥ ¹«ÀÛÀ§ Á¦°Å
+removetime = -100                   ; ÀÌÆåÆ® Áö¼Ó ½Ã°£
 pausemovetime = 0
 scale = .3, .3
 sprpriority = 999
@@ -9084,12 +8661,12 @@ angle = 0
 [State 200, End]
 type = ChangeState
 trigger1 = movehit && time = 75
-value = 1233  ; ê³µê²©ì´ ì ì¤‘í•œ í›„, 75í”„ë ˆì„ì´ ì§€ë‚˜ë©´ ìƒíƒœë¥¼ 1233ìœ¼ë¡œ ë³€ê²½
+value = 1233  ; °ø°İÀÌ ÀûÁßÇÑ ÈÄ, 75ÇÁ·¹ÀÓÀÌ Áö³ª¸é »óÅÂ¸¦ 1233À¸·Î º¯°æ
 
 [State 200, End]
 type = ChangeState
 trigger1 = time >= 75 && movehit = 0
-value = 1232  ; ì‹œê°„ì´ 75í”„ë ˆì„ ì´ìƒ ì§€ë‚˜ê³ , ê³µê²©ì´ ì ì¤‘í•˜ì§€ ì•Šì€ ê²½ìš° ìƒíƒœë¥¼ 1232ë¡œ ë³€ê²½
+value = 1232  ; ½Ã°£ÀÌ 75ÇÁ·¹ÀÓ ÀÌ»ó Áö³ª°í, °ø°İÀÌ ÀûÁßÇÏÁö ¾ÊÀº °æ¿ì »óÅÂ¸¦ 1232·Î º¯°æ
 ;-------------------------------------------------------------------------------
 ; Fin
 [Statedef 1232]
@@ -9244,7 +8821,7 @@ sprpriority = 2
 type = VarSet
 trigger1 = Time = 0
 v = 24
-value = random%10 + 51  ; 51ë¶€í„° 60ê¹Œì§€ ë¬´ì‘ìœ„ ì„ íƒ
+value = random%10 + 51  ; 51ºÎÅÍ 60±îÁö ¹«ÀÛÀ§ ¼±ÅÃ
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -9365,13 +8942,13 @@ angle = -90
 
 [State 0, Presse FX]
 type = Explod
-trigger1 = movehit = 1  ; ì ì´ í”¼ê²©ë˜ì—ˆì„ ë•Œ ë°œë™
+trigger1 = movehit = 1  ; ÀûÀÌ ÇÇ°İµÇ¾úÀ» ¶§ ¹ßµ¿
 anim = 1465
 ID = 1465
-postype = p1  ; í”Œë ˆì´ì–´ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 20, -17  ; Y ê°’ì„ -10ì—ì„œ -5ë¡œ ìˆ˜ì •í•˜ì—¬ ì‚´ì§ ìœ„ë¡œ ì´ë™
+postype = p1  ; ÇÃ·¹ÀÌ¾î ±âÁØÀ¸·Î ¼³Á¤
+pos = 20, -17  ; Y °ªÀ» -10¿¡¼­ -5·Î ¼öÁ¤ÇÏ¿© »ìÂ¦ À§·Î ÀÌµ¿
 scale = .7, .7
-facing = 1  ; í•­ìƒ ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì¶œë ¥
+facing = 1  ; Ç×»ó ¿À¸¥ÂÊÀ¸·Î Ãâ·Â
 removetime = -5
 sprpriority = 3
 ontop = 1
@@ -9379,7 +8956,7 @@ ownpal = 1
 removeongethit = 1
 supermovetime = 999
 bindtime = -1
-vel = 3*facing, 0  ; í”Œë ˆì´ì–´ì˜ ë°©í–¥ì— ë”°ë¼ ì˜¤ë¥¸ìª½ìœ¼ë¡œ ë‚˜ê°
+vel = 3*facing, 0  ; ÇÃ·¹ÀÌ¾îÀÇ ¹æÇâ¿¡ µû¶ó ¿À¸¥ÂÊÀ¸·Î ³ª°¨
 
 
 [State 0, Viento]
@@ -9832,7 +9409,7 @@ type = PlaySnd
 trigger1 = time = 22
 value = S5,4
 volume = 50
-;ì´ê²Œ ë§ˆì§€ë§‰ ë•Œë¦´? ì´í™íŠ¸
+;ÀÌ°Ô ¸¶Áö¸· ¶§¸±? ÀÌÆåÆ®
 
 [State 0, Explod]
 type = Explod
@@ -9855,15 +9432,15 @@ type = Explod
 trigger1 = time =23
 anim = 1410
 ID = 1410
-postype = p2 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 0, -15  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 15000,15000  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = 5 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p2 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 0, -15  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 15000,15000  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = 5 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 
@@ -10238,9 +9815,9 @@ sprpriority = 2
 
 [State 0, Freeze Opponent]
 type = TargetState
-trigger1 = Time = 0         ; ì›í•˜ëŠ” íŠ¸ë¦¬ê±° ì¡°ê±´
-value = 3015                ; ì ì´ ë“¤ì–´ê°ˆ ìŠ¤í…Œì´íŠ¸ ë²ˆí˜¸ (ì»¤ìŠ¤í…€ ìŠ¤í…Œì´íŠ¸)
-targetID = -1                 ; ëª¨ë“  ì ì„ ëŒ€ìƒìœ¼ë¡œ í•¨
+trigger1 = Time = 0         ; ¿øÇÏ´Â Æ®¸®°Å Á¶°Ç
+value = 3015                ; ÀûÀÌ µé¾î°¥ ½ºÅ×ÀÌÆ® ¹øÈ£ (Ä¿½ºÅÒ ½ºÅ×ÀÌÆ®)
+targetID = -1                 ; ¸ğµç ÀûÀ» ´ë»óÀ¸·Î ÇÔ
 
 
 [State 0, PlaySnd]
@@ -10400,7 +9977,7 @@ type = Explod
 trigger1 = time = 0
 anim = 6013
 ID = 6013
-pos = 13*Helper(999999),Fvar(16),2*Helper(999999),Fvar(16) ;ì˜ˆëŠ” ?ìŒ
+pos = 13*Helper(999999),Fvar(16),2*Helper(999999),Fvar(16) ;¿¹´Â ?À½
 postype = back
 facing = 1
 vfacing = 1
@@ -10416,15 +9993,15 @@ type = Explod
 trigger1 = time = 0
 anim = 1410
 ID = 1410
-postype = p1 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 7, -35  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 2.5,1  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = -2 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p1 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 7, -35  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 2.5,1  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = -2 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 [State 0, PlaySnd]
@@ -10566,15 +10143,15 @@ type = Explod
 trigger1 = time = 1870
 anim = 1410
 ID = 1410
-postype = p1 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 27, -35  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 2,1  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = -2 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p1 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 27, -35  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 2,1  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = -2 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 [State 0, PlaySnd]
@@ -10641,7 +10218,7 @@ scale = .5*Helper(999999),Fvar(16),.5*Helper(999999),Fvar(16)
 sprpriority = 2
 ontop = 1
 ownpal = 1
-;ì—¬ê¸°ê¹Œì§€---------------------------------------------------------------------
+;¿©±â±îÁö---------------------------------------------------------------------
 [State 0, AssertSpecial]
 type = AssertSpecial
 trigger1 = 1
@@ -10805,7 +10382,7 @@ ontop = 0
 ownpal = 1
 removeongethit = 1
 
-; ì´ê±´ ì²˜ìŒì— ë‹¤ê°€ê°€ê°ˆë•Œ ë©ˆì¶”ëŠ” ê±°
+; ÀÌ°Ç Ã³À½¿¡ ´Ù°¡°¡°¥¶§ ¸ØÃß´Â °Å
 [State 3000, SuperPause]
 type = SuperPause
 trigger1 = time = 0
@@ -10863,7 +10440,7 @@ volume = 50
 type = VelSet
 trigger1 = time = 30
 x = 30
-; ì¼ë‹¨ í•„ìš” ì—†ëŠ”ê±° ê°™ì€ ì½”ë“œ 
+; ÀÏ´Ü ÇÊ¿ä ¾ø´Â°Å °°Àº ÄÚµå 
 
 [State 0, VelSet]
 type = VelSet
@@ -10875,7 +10452,7 @@ type = AssertSpecial
 trigger1 = 1
 flag = unguardable
 
-; ì• ë‹ˆë§¤ì´ì…˜ 6 ì¼ë•Œ ë‚˜ì˜¤ëŠ” ì‚¬ìš´ë“œ
+; ¾Ö´Ï¸ÅÀÌ¼Ç 6 ÀÏ¶§ ³ª¿À´Â »ç¿îµå
 [State 0, PlaySnd]
 type = PlaySnd
 trigger1 = animelem = 11
@@ -10895,21 +10472,21 @@ sprpriority = 3
 ontop = 1
 ownpal = 1
 supermovetime = 999
-; ë‚ ë¼ê°€ì„œ ë•Œë¦´ë•Œ ë§ëŠ” ì½”ë“œ
+; ³¯¶ó°¡¼­ ¶§¸±¶§ ¸Â´Â ÄÚµå
 
 [State 0, Pause]
 type = Pause
-trigger1 = animelem = 7     ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
+trigger1 = animelem = 7     ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
 time = 5   
 
 [State 0, Pause]
 type = Pause
-trigger1 = animelem = 13     ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
-time = 30                     ; 10í”„ë ˆì„ ë™ì•ˆ ë©ˆì¶”ê¸°                   ; 10í”„ë ˆì„ ë™ì•ˆ ë©ˆì¶”ê¸°                  ; ì• ë‹ˆë©”ì´ì…˜ì˜ ì§„í–‰ ì†ë„ ë³€ê²½
+trigger1 = animelem = 13     ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
+time = 30                     ; 10ÇÁ·¹ÀÓ µ¿¾È ¸ØÃß±â                   ; 10ÇÁ·¹ÀÓ µ¿¾È ¸ØÃß±â                  ; ¾Ö´Ï¸ŞÀÌ¼ÇÀÇ ÁøÇà ¼Óµµ º¯°æ
 
 [State 200, 1]
 type = HitDef
-triggerall = animelem = 6 ; 6í”„ë ˆì„ì—ì„œ íˆíŠ¸ë°•ìŠ¤ë¥¼ í™œì„±í™”
+triggerall = animelem = 6 ; 6ÇÁ·¹ÀÓ¿¡¼­ È÷Æ®¹Ú½º¸¦ È°¼ºÈ­
 trigger1 = 1
 attr = S, SA
 animtype = Heavy
@@ -10930,7 +10507,7 @@ Envshake.ampl = -11
 
 [State 200, 2]
 type = HitDef
-triggerall = animelem = 11 ; 11í”„ë ˆì„ì—ì„œ íˆíŠ¸ë°•ìŠ¤ë¥¼ í™œì„±í™”
+triggerall = animelem = 11 ; 11ÇÁ·¹ÀÓ¿¡¼­ È÷Æ®¹Ú½º¸¦ È°¼ºÈ­
 trigger1 = 1
 attr = S, SA
 animtype = Heavy
@@ -10987,14 +10564,14 @@ ignorehitpause = 1
 [State 0, VarSet]
 type = VarSet
 trigger1 = movehit
-v = 30          ; movehitì´ ë°œìƒí•  ë•Œë§ˆë‹¤ ë³€ìˆ˜ 10ì„ 1ì”© ì¦ê°€ì‹œí‚µë‹ˆë‹¤.
+v = 30          ; movehitÀÌ ¹ß»ıÇÒ ¶§¸¶´Ù º¯¼ö 10À» 1¾¿ Áõ°¡½ÃÅµ´Ï´Ù.
 value = 1
 
 [State 0, ChangeState]
 type = ChangeState
-trigger1 = Var(30) = 2  ; movehitì´ ë‘ ë²ˆ ë°œìƒí–ˆì„ ë•Œ
-trigger2 = time >= 88   ; 88í”„ë ˆì„ ì´ìƒ ì§€ë‚œ í›„
-value = 3011            ; ìƒíƒœë¥¼ 3011ë¡œ ë³€ê²½
+trigger1 = Var(30) = 2  ; movehitÀÌ µÎ ¹ø ¹ß»ıÇßÀ» ¶§
+trigger2 = time >= 88   ; 88ÇÁ·¹ÀÓ ÀÌ»ó Áö³­ ÈÄ
+value = 3011            ; »óÅÂ¸¦ 3011·Î º¯°æ
 
 [State 200, End]
 type = ChangeState
@@ -11099,7 +10676,7 @@ value = 6
 
 [State 0, Pause]
 type = Pause
-trigger1 = animelem = 4     ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
+trigger1 = animelem = 4     ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
 time = 150     
 
 [State 3000, BGColorFX]
@@ -11189,21 +10766,21 @@ type = Explod
 trigger1 = time = 175
 anim = 1410
 ID = 1410
-postype = p1 ; ì ì˜ ì¢Œí‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì„¤ì •
-pos = 15, -55  ; ì ì˜ ì¤‘ì‹¬ ìœ„ì¹˜ì— ì´í™íŠ¸ë¥¼ ê³ ì •
-scale = 2,1  ; í¬ê¸° ì„¤ì •
-bindtime = -1 ; ë¬´í•œ ì‹œê°„ ë™ì•ˆ ê³ ì •
-removetime = -2 ; ì œê±° ì¡°ê±´: -2ëŠ” ë¬´ì œí•œ
+postype = p1 ; ÀûÀÇ ÁÂÇ¥¸¦ ±âÁØÀ¸·Î ¼³Á¤
+pos = 15, -55  ; ÀûÀÇ Áß½É À§Ä¡¿¡ ÀÌÆåÆ®¸¦ °íÁ¤
+scale = 2,1  ; Å©±â ¼³Á¤
+bindtime = -1 ; ¹«ÇÑ ½Ã°£ µ¿¾È °íÁ¤
+removetime = -2 ; Á¦°Å Á¶°Ç: -2´Â ¹«Á¦ÇÑ
 sprpriority = 3
 ontop = 1
 ownpal = 1
-removeongethit = 1 ; ì ì´ í”¼ê²©ë  ê²½ìš° ì œê±°
+removeongethit = 1 ; ÀûÀÌ ÇÇ°İµÉ °æ¿ì Á¦°Å
 supermovetime = 999
 
 [State 0, Teal Lightning FXADD]
 type = Explod
 trigger1 = time = 130
-trigger1 = (time - 125) % 10 = 0      ; ë§¤ 10í”„ë ˆì„ ê°„ê²©ìœ¼ë¡œ ì‹¤í–‰
+trigger1 = (time - 125) % 10 = 0      ; ¸Å 10ÇÁ·¹ÀÓ °£°İÀ¸·Î ½ÇÇà
 anim = 6015+Random%3
 ID = 6015
 pos = 22*Helper(999999),Fvar(16)+random%10*Helper(999999),Fvar(16),-46*Helper(999999),Fvar(16)-random%20*Helper(999999),Fvar(16)
@@ -11418,40 +10995,40 @@ ctrl = 1
 
 [State 200, Self-Damage]
 type = LifeAdd
-trigger1 = AnimTime = 21  ; ê¸°ìˆ  ì¢…ë£Œ ì‹œì 
-value = -1               ; ì²´ë ¥ 1 ê°ì†Œ
-kill = 0                 ; ì²´ë ¥ì´ 0ì´ ë˜ì§€ ì•Šë„ë¡ ë³´í˜¸
-absolute = 1             ; ì ˆëŒ€ê°’ ë°©ì‹ìœ¼ë¡œ ê°ì†Œ
+trigger1 = AnimTime = 21  ; ±â¼ú Á¾·á ½ÃÁ¡
+value = -1               ; Ã¼·Â 1 °¨¼Ò
+kill = 0                 ; Ã¼·ÂÀÌ 0ÀÌ µÇÁö ¾Êµµ·Ï º¸È£
+absolute = 1             ; Àı´ë°ª ¹æ½ÄÀ¸·Î °¨¼Ò
 
 [State 200, Self-Hit Animation]
 type = ChangeAnim
 trigger1 = AnimTime = 0
-value = 5000             ; ë§ëŠ” ì• ë‹ˆë©”ì´ì…˜ (5000ë²ˆìœ¼ë¡œ ê°€ì •)
+value = 5000             ; ¸Â´Â ¾Ö´Ï¸ŞÀÌ¼Ç (5000¹øÀ¸·Î °¡Á¤)
 
 [State 200, Self-Pause Effect]
 type = Pause
 trigger1 = AnimTime = 0
-time = 10                ; ì ì‹œ ë©ˆì¶”ëŠ” ì‹œê°„
-movetime = 10            ; í”Œë ˆì´ì–´ ë©ˆì¶¤ ì‹œê°„
+time = 10                ; Àá½Ã ¸ØÃß´Â ½Ã°£
+movetime = 10            ; ÇÃ·¹ÀÌ¾î ¸ØÃã ½Ã°£
 
 [State 200, Ctrl Recovery]
 type = CtrlSet
 trigger1 = AnimTime = 0
-value = 1                ; ì œì–´ê¶Œ ë³µêµ¬
-;---------------------------- ì˜¤ë¥˜ìƒê¸¸ ìˆ˜ ìˆìŒ 
+value = 1                ; Á¦¾î±Ç º¹±¸
+;---------------------------- ¿À·ù»ı±æ ¼ö ÀÖÀ½ 
 [Statedef 3015]
-type = S                      ; ìƒíƒœ: Standing
-movetype = I                  ; ë™ì‘ ì œí•œ (I = Idle)
-physics = N                   ; ë¬¼ë¦¬ì  ì›€ì§ì„ ì—†ìŒ
-velset = 0, 0                 ; ì›€ì§ì„ ì´ˆê¸°í™”
-anim = 5000                 ; ë©ˆì¶¤ ì‹œ ë³´ì—¬ì¤„ ì• ë‹ˆë©”ì´ì…˜ (ì˜ˆ: ê²½ì§ íš¨ê³¼)
-ctrl = 0                      ; ì»¨íŠ¸ë¡¤ ë¶ˆê°€ëŠ¥
+type = S                      ; »óÅÂ: Standing
+movetype = I                  ; µ¿ÀÛ Á¦ÇÑ (I = Idle)
+physics = N                   ; ¹°¸®Àû ¿òÁ÷ÀÓ ¾øÀ½
+velset = 0, 0                 ; ¿òÁ÷ÀÓ ÃÊ±âÈ­
+anim = 5000                 ; ¸ØÃã ½Ã º¸¿©ÁÙ ¾Ö´Ï¸ŞÀÌ¼Ç (¿¹: °æÁ÷ È¿°ú)
+ctrl = 0                      ; ÄÁÆ®·Ñ ºÒ°¡´É
 
 
 [State 3015, Release Opponent]
 type = ChangeState
-trigger1 = Time >= 1700        ; 120í”„ë ˆì„(ì•½ 2ì´ˆ) í›„ í•´ì œ
-value = 0                     ; ì›ë˜ ìƒíƒœ(Idle)ë¡œ ë³µê·€
+trigger1 = Time >= 1700        ; 120ÇÁ·¹ÀÓ(¾à 2ÃÊ) ÈÄ ÇØÁ¦
+value = 0                     ; ¿ø·¡ »óÅÂ(Idle)·Î º¹±Í
 ctrl = 1   
 
 
@@ -11765,8 +11342,8 @@ sprpriority = 2
 
 [State 0, Pause]
 type = Pause
-trigger1 = animelem = 1     ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
-time = 30                     ; 10í”„ë ˆì„ ë™ì•ˆ ë©ˆì¶”ê¸°                   ; 10í”„ë ˆì„ ë™ì•ˆ ë©ˆì¶”ê¸°                  ; ì• ë‹ˆë©”ì´ì…˜ì˜ ì§„í–‰ ì†ë„ ë³€ê²½
+trigger1 = animelem = 1     ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
+time = 30                     ; 10ÇÁ·¹ÀÓ µ¿¾È ¸ØÃß±â                   ; 10ÇÁ·¹ÀÓ µ¿¾È ¸ØÃß±â                  ; ¾Ö´Ï¸ŞÀÌ¼ÇÀÇ ÁøÇà ¼Óµµ º¯°æ
 
 
 
@@ -11872,8 +11449,8 @@ trigger1 = time = 5
 anim = 1410
 ID = 1410
 postype = p1
-pos = 15, -40  ; x, y ì¢Œí‘œë¥¼ ê³ ì •ëœ ê°’ìœ¼ë¡œ ì„¤ì •
-scale = .6,.6  ; í¬ê¸° ì„¤ì •
+pos = 15, -40  ; x, y ÁÂÇ¥¸¦ °íÁ¤µÈ °ªÀ¸·Î ¼³Á¤
+scale = .6,.6  ; Å©±â ¼³Á¤
 removetime = -2
 sprpriority = 3
 ontop = 1
@@ -12201,11 +11778,11 @@ air.velocity = -4,0
 air.hittime = 12
 fall = 1
 
-; íŒŒì›Œ ê²Œì´ì§€ ê°ì†Œ ì¶”ê°€
+; ÆÄ¿ö °ÔÀÌÁö °¨¼Ò Ãß°¡
 [State 200, Reduce Target Power]
 type = TargetPowerAdd
-trigger1 = movehit = 1        ; ê³µê²©ì´ ì ì¤‘í–ˆì„ ë•Œë§Œ ì‹¤í–‰
-value = -25                  ; ì  íŒŒì›Œ ê²Œì´ì§€ ê°ì†Œ (-500)
+trigger1 = movehit = 1        ; °ø°İÀÌ ÀûÁßÇßÀ» ¶§¸¸ ½ÇÇà
+value = -25                  ; Àû ÆÄ¿ö °ÔÀÌÁö °¨¼Ò (-500)
 
 [State 0, BindToRoot]
 type = BindToRoot
@@ -12321,27 +11898,27 @@ value = 1506
 
 [State 3014, 1]
 type = HitDef
-trigger1 = movehit = 10   ; movehitì— ë§ì•˜ì„ ë•Œ
-trigger2 = animelem = 7    ; ì• ë‹ˆë©”ì´ì…˜ì˜ íŠ¹ì • í”„ë ˆì„ì¼ ë•Œ
-attr = S, NA              ; ìŠ¤í”„ë§/ë‚´ê³µ íŠ¹ì„± ì„¤ì •
-damage = 50,6             ; í”¼í•´ ì„¤ì •
-guardflag = MA            ; ë§‰ì•˜ì„ ë•Œ ì²˜ë¦¬
-hitflag = MAF             ; ë§ì•˜ì„ ë•Œ ì²˜ë¦¬
-priority = 3, Hit         ; íˆíŠ¸ íŒì • ìš°ì„ ìˆœìœ„
-pausetime = 0             ; íˆíŠ¸ í›„ ì •ì§€ ì‹œê°„
-sparkno = 999             ; ìŠ¤íŒŒí¬ ë²ˆí˜¸ (í”¼ê²© ì´í™íŠ¸)
-sparkxy = -10, -76        ; ìŠ¤íŒŒí¬ ìœ„ì¹˜
-hitsound = 4,1           ; íˆíŠ¸ ì†Œë¦¬
-guardsound = 6, 0         ; ê°€ë“œ ì†Œë¦¬
-ground.type = High        ; ì§€ë©´ì—ì„œì˜ ì²˜ë¦¬
-ground.slidetime = 5      ; ë¯¸ë„ëŸ¬ì§€ëŠ” ì‹œê°„
-ground.hittime = 12       ; íˆíŠ¸ ì‹œê°„
-ground.velocity = -4      ; ì§€ë©´ íˆíŠ¸ í›„ ë°˜ì‘
-airguard.velocity = -1.9,-.8  ; ê³µì¤‘ì—ì„œ ê°€ë“œì‹œ ë°˜ì‘
-air.type = High           ; ê³µì¤‘ì—ì„œì˜ ì²˜ë¦¬
-air.velocity = -4,0       ; ê³µì¤‘ íˆíŠ¸ í›„ ë°˜ì‘
-air.hittime = 12          ; ê³µì¤‘ íˆíŠ¸ ì‹œê°„
-fall = 1                  ; ë‚™í•˜ ì²˜ë¦¬
+trigger1 = movehit = 10   ; movehit¿¡ ¸Â¾ÒÀ» ¶§
+trigger2 = animelem = 7    ; ¾Ö´Ï¸ŞÀÌ¼ÇÀÇ Æ¯Á¤ ÇÁ·¹ÀÓÀÏ ¶§
+attr = S, NA              ; ½ºÇÁ¸µ/³»°ø Æ¯¼º ¼³Á¤
+damage = 50,6             ; ÇÇÇØ ¼³Á¤
+guardflag = MA            ; ¸·¾ÒÀ» ¶§ Ã³¸®
+hitflag = MAF             ; ¸Â¾ÒÀ» ¶§ Ã³¸®
+priority = 3, Hit         ; È÷Æ® ÆÇÁ¤ ¿ì¼±¼øÀ§
+pausetime = 0             ; È÷Æ® ÈÄ Á¤Áö ½Ã°£
+sparkno = 999             ; ½ºÆÄÅ© ¹øÈ£ (ÇÇ°İ ÀÌÆåÆ®)
+sparkxy = -10, -76        ; ½ºÆÄÅ© À§Ä¡
+hitsound = 4,1           ; È÷Æ® ¼Ò¸®
+guardsound = 6, 0         ; °¡µå ¼Ò¸®
+ground.type = High        ; Áö¸é¿¡¼­ÀÇ Ã³¸®
+ground.slidetime = 5      ; ¹Ì²ô·¯Áö´Â ½Ã°£
+ground.hittime = 12       ; È÷Æ® ½Ã°£
+ground.velocity = -4      ; Áö¸é È÷Æ® ÈÄ ¹İÀÀ
+airguard.velocity = -1.9,-.8  ; °øÁß¿¡¼­ °¡µå½Ã ¹İÀÀ
+air.type = High           ; °øÁß¿¡¼­ÀÇ Ã³¸®
+air.velocity = -4,0       ; °øÁß È÷Æ® ÈÄ ¹İÀÀ
+air.hittime = 12          ; °øÁß È÷Æ® ½Ã°£
+fall = 1                  ; ³«ÇÏ Ã³¸®
 
 [State 0, Hit Spark]
 type = Helper
@@ -12402,40 +11979,40 @@ value = 0
 ctrl = 1
 ; CALLFORNIA SMASH 2
 ;==============================================================================\
-[Statedef 3018] ; ê³µì¤‘ ê³µê²© ìƒíƒœ ì •ì˜
-type = S ; ê³µì¤‘ ìƒíƒœ(Air)
-movetype = A ; ê³µê²© ì¤‘ ìƒíƒœ
-physics = S ; ê³µì¤‘ ë¬¼ë¦¬ ì ìš©
+[Statedef 3018] ; °øÁß °ø°İ »óÅÂ Á¤ÀÇ
+type = S ; °øÁß »óÅÂ(Air)
+movetype = A ; °ø°İ Áß »óÅÂ
+physics = S ; °øÁß ¹°¸® Àû¿ë
 juggle  = 1
-anim = 3018 ; ê³µì¤‘ ê³µê²© ì• ë‹ˆë©”ì´ì…˜ ë²ˆí˜¸
-velset = 0,0 ; ì´ˆê¸° ì†ë„ ì„¤ì • (ìƒí–¥ ì´ë™)
+anim = 3018 ; °øÁß °ø°İ ¾Ö´Ï¸ŞÀÌ¼Ç ¹øÈ£
+velset = 0,0 ; ÃÊ±â ¼Óµµ ¼³Á¤ (»óÇâ ÀÌµ¿)
 poweradd = -500
-ctrl = 0 ; ê³µê²© ì¤‘ ì œì–´ ë¶ˆê°€ëŠ¥
+ctrl = 0 ; °ø°İ Áß Á¦¾î ºÒ°¡´É
 sprpriority = 2
 
-[State 200, HitDef] ; íˆíŠ¸ ì •ì˜
+[State 200, HitDef] ; È÷Æ® Á¤ÀÇ
 type = HitDef
-trigger1 = AnimElem = 3 ; ê³µê²© íƒ€ì´ë° (3ë²ˆì§¸ ì• ë‹ˆë©”ì´ì…˜ í”„ë ˆì„ì—ì„œ ë°œìƒ)
-attr = A, NA ; ê³µì¤‘, ì¼ë°˜ ê³µê²©
-damage = 40 ; ë°ë¯¸ì§€ ì„¤ì •
-animtype = Hard ; ìƒëŒ€ í”¼ê²© ì• ë‹ˆë©”ì´ì…˜ íƒ€ì…
-hitflag = A ; ê³µê²©ì´ ê³µì¤‘ ìƒëŒ€ì—ê²Œë§Œ ì ì¤‘
-priority = 3, Hit ; ê³µê²© ìš°ì„ ìˆœìœ„
-guardflag = MA ; ê³µì¤‘ ë° ì¤‘ë‹¨ ë°©ì–´ ê°€ëŠ¥
-sparkno = 1 ; íˆíŠ¸ íš¨ê³¼ ìŠ¤íŒŒí¬
-p1stateno = 210 ; íˆíŠ¸ ì‹œ ìƒëŒ€ ìƒíƒœ ë³€ê²½ (ì˜ˆ: ìŠ¤í„´ ìƒíƒœ)
-p2stateno = 5000 ; í”¼ê²© ì‹œ ìƒëŒ€ ìƒíƒœ
-ground.type = High ; ìƒëŒ€ë¥¼ ê³µì¤‘ìœ¼ë¡œ íŠ•ê¸°ê²Œ í•¨
-ground.slidetime = 10 ; ìƒëŒ€ê°€ ë°€ë¦¬ëŠ” ì‹œê°„
-air.type = Low ; ê³µì¤‘ ìƒëŒ€ í”¼ê²© ë°˜ì‘
-air.velocity = -3,-5 ; ìƒëŒ€ê°€ íŠ•ê²¨ ë‚˜ê°€ëŠ” ì†ë„
+trigger1 = AnimElem = 3 ; °ø°İ Å¸ÀÌ¹Ö (3¹øÂ° ¾Ö´Ï¸ŞÀÌ¼Ç ÇÁ·¹ÀÓ¿¡¼­ ¹ß»ı)
+attr = A, NA ; °øÁß, ÀÏ¹İ °ø°İ
+damage = 40 ; µ¥¹ÌÁö ¼³Á¤
+animtype = Hard ; »ó´ë ÇÇ°İ ¾Ö´Ï¸ŞÀÌ¼Ç Å¸ÀÔ
+hitflag = A ; °ø°İÀÌ °øÁß »ó´ë¿¡°Ô¸¸ ÀûÁß
+priority = 3, Hit ; °ø°İ ¿ì¼±¼øÀ§
+guardflag = MA ; °øÁß ¹× Áß´Ü ¹æ¾î °¡´É
+sparkno = 1 ; È÷Æ® È¿°ú ½ºÆÄÅ©
+p1stateno = 210 ; È÷Æ® ½Ã »ó´ë »óÅÂ º¯°æ (¿¹: ½ºÅÏ »óÅÂ)
+p2stateno = 5000 ; ÇÇ°İ ½Ã »ó´ë »óÅÂ
+ground.type = High ; »ó´ë¸¦ °øÁßÀ¸·Î Æ¨±â°Ô ÇÔ
+ground.slidetime = 10 ; »ó´ë°¡ ¹Ğ¸®´Â ½Ã°£
+air.type = Low ; °øÁß »ó´ë ÇÇ°İ ¹İÀÀ
+air.velocity = -3,-5 ; »ó´ë°¡ Æ¨°Ü ³ª°¡´Â ¼Óµµ
 
 
 [State 0, Pause]
 type = Pause
-trigger1 = animelem = 8    ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
+trigger1 = animelem = 8    ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
 time = 60
-movetime = 100              ; ìì‹ ì´ ì›€ì§ì¼ ìˆ˜ ìˆëŠ” ì‹œê°„ (ì•„ë˜ì—ì„œ ì„¤ëª…)   
+movetime = 100              ; ÀÚ½ÅÀÌ ¿òÁ÷ÀÏ ¼ö ÀÖ´Â ½Ã°£ (¾Æ·¡¿¡¼­ ¼³¸í)   
 
 [State 3000, VarSet]
 type = Varset
@@ -12462,7 +12039,7 @@ time = 1
 add = Var(12),Var(12),Var(12)
 
 
-; ì›í•˜ëŠ” ìœ„ì¹˜ë¡œ ì´ë™
+; ¿øÇÏ´Â À§Ä¡·Î ÀÌµ¿
 [State 0, MoveToNewPosition]
 type = velSet
 trigger1 = time = 0
@@ -12470,11 +12047,11 @@ x = 6
 y = -2
 
 
-[State 200, End] ; ê³µê²© ì¢…ë£Œ
+[State 200, End] ; °ø°İ Á¾·á
 type = ChangeState
-trigger1 = AnimTime = 0 ; ì• ë‹ˆë©”ì´ì…˜ ì¢…ë£Œ ì‹œ
-value = 50 ; ëŒ€ê¸° ìƒíƒœ(50)ë¡œ ë³€ê²½
-ctrl = 1 ; ì»¨íŠ¸ë¡¤ ë°˜í™˜
+trigger1 = AnimTime = 0 ; ¾Ö´Ï¸ŞÀÌ¼Ç Á¾·á ½Ã
+value = 50 ; ´ë±â »óÅÂ(50)·Î º¯°æ
+ctrl = 1 ; ÄÁÆ®·Ñ ¹İÈ¯
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------
 ; CALLYFORNIA SMASH
@@ -12505,13 +12082,13 @@ value = 5050
 [State 0, VarSet]
 type = VarSet
 trigger1 = movehit
-v = 40         ; movehitì´ ë°œìƒí•  ë•Œë§ˆë‹¤ ë³€ìˆ˜ 10ì„ 1ì”© ì¦ê°€ì‹œí‚µë‹ˆë‹¤.
+v = 40         ; movehitÀÌ ¹ß»ıÇÒ ¶§¸¶´Ù º¯¼ö 10À» 1¾¿ Áõ°¡½ÃÅµ´Ï´Ù.
 value = 1
 
 [State 0, ChangeState]
 type = ChangeState
-trigger1 = Var(40) = 2  ; movehitì´ ë‘ ë²ˆ ë°œìƒí–ˆì„ ë•Œ
-value = 3018           ; ìƒíƒœë¥¼ 3011ë¡œ ë³€ê²½
+trigger1 = Var(40) = 2  ; movehitÀÌ µÎ ¹ø ¹ß»ıÇßÀ» ¶§
+value = 3018           ; »óÅÂ¸¦ 3011·Î º¯°æ
 ;-----------
 ; COUNT TAXSAS
 ;-------------------------------------------------------------------------------
@@ -12721,7 +12298,7 @@ volume = 999
 
 [State 0, Pause]
 type = Pause
-trigger1 = animelem = 1     ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
+trigger1 = animelem = 1     ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
 time = 120  
 
 [State 0, VelSet]
@@ -12923,21 +12500,21 @@ ignorehitpause = 1
 [State 3030, Explod]
 type = Explod
 trigger1 = Time = 100
-anim = 3032  ; ì‹¤í–‰í•  ë‘ ë²ˆì§¸ ì• ë‹ˆë©”ì´ì…˜ ë²ˆí˜¸
-pos = 50, 0   ; ìºë¦­í„°ì˜ ê¸°ì¤€ ì¢Œí‘œë¥¼ ì¤‘ì‹¬ìœ¼ë¡œ ìœ„ì¹˜ ì§€ì •
+anim = 3032  ; ½ÇÇàÇÒ µÎ ¹øÂ° ¾Ö´Ï¸ŞÀÌ¼Ç ¹øÈ£
+pos = 50, 0   ; Ä³¸¯ÅÍÀÇ ±âÁØ ÁÂÇ¥¸¦ Áß½ÉÀ¸·Î À§Ä¡ ÁöÁ¤
 facing = -1
-postype = p1 ; ê¸°ì¤€ ì¢Œí‘œ(p1: ë³¸ì¸, p2: ìƒëŒ€, front/back: í™”ë©´ ê¸°ì¤€)
-sprpriority = 4 ; ìŠ¤í”„ë¼ì´íŠ¸ ìš°ì„ ìˆœìœ„
+postype = p1 ; ±âÁØ ÁÂÇ¥(p1: º»ÀÎ, p2: »ó´ë, front/back: È­¸é ±âÁØ)
+sprpriority = 4 ; ½ºÇÁ¶óÀÌÆ® ¿ì¼±¼øÀ§
 
 
 [State 3030, Explod]
 type = Explod
 trigger1 = Time = 100
-anim = 6042  ; ì‹¤í–‰í•  ë‘ ë²ˆì§¸ ì• ë‹ˆë©”ì´ì…˜ ë²ˆí˜¸
-pos = 50, -60   ; ìºë¦­í„°ì˜ ê¸°ì¤€ ì¢Œí‘œë¥¼ ì¤‘ì‹¬ìœ¼ë¡œ ìœ„ì¹˜ ì§€ì •
+anim = 6042  ; ½ÇÇàÇÒ µÎ ¹øÂ° ¾Ö´Ï¸ŞÀÌ¼Ç ¹øÈ£
+pos = 50, -60   ; Ä³¸¯ÅÍÀÇ ±âÁØ ÁÂÇ¥¸¦ Áß½ÉÀ¸·Î À§Ä¡ ÁöÁ¤
 facing = 1
-postype = p1 ; ê¸°ì¤€ ì¢Œí‘œ(p1: ë³¸ì¸, p2: ìƒëŒ€, front/back: í™”ë©´ ê¸°ì¤€)
-sprpriority = 5 ; ìŠ¤í”„ë¼ì´íŠ¸ ìš°ì„ ìˆœìœ„
+postype = p1 ; ±âÁØ ÁÂÇ¥(p1: º»ÀÎ, p2: »ó´ë, front/back: È­¸é ±âÁØ)
+sprpriority = 5 ; ½ºÇÁ¶óÀÌÆ® ¿ì¼±¼øÀ§
 
 [State 0, anime]
 type = Explod
@@ -13032,7 +12609,7 @@ volume = 999
 
 ;[State 0, Pause]
 ;type = Pause
-;trigger1 = animelem = 1     ; 5ë²ˆì§¸ í”„ë ˆì„ì—ì„œ
+;trigger1 = animelem = 1     ; 5¹øÂ° ÇÁ·¹ÀÓ¿¡¼­
 ;time = 120  
 
 [State 0, VelSet]
@@ -13238,7 +12815,7 @@ value = 5050
 type = ChangeAnim
 trigger1 = Anim != 0 && life > lifeMax / 2
 trigger1 = Anim != 500  
-value = 10001 ; ì²´ë ¥ì´ 50% ì´í•˜ì¼ ë•Œ ì´ë™í•  ìƒíƒœ ë²ˆí˜¸ (ì˜ˆ: ìƒíƒœ 100)
+value = 10001 ; Ã¼·ÂÀÌ 50% ÀÌÇÏÀÏ ¶§ ÀÌµ¿ÇÒ »óÅÂ ¹øÈ£ (¿¹: »óÅÂ 100)
 ;-------------------------------------------------------------------------------
 ; Stand to Crouch
 [Statedef 10]
